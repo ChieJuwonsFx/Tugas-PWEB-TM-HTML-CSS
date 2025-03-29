@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="top-header">
         <div class="header-content">
@@ -34,7 +36,7 @@
                     <div class="input-group">
                         <label for="no_hp" class="input-label">Nomor Telepon</label>
                         <input type="tel" id="no_hp" name="no_hp" class="form-input" required>
-                    </div>                    
+                    </div>
                     <div class="input-group">
                         <label for="role" class="input-label">Role</label>
                         <select id="role" name="role" class="form-input" required>
@@ -60,7 +62,11 @@
 
         <div class="card">
             <div class="card-heading">
-                <h2 class="card-title"><i class="fas fa-users"></i>  Daftar Admin</h2>
+                <h2 class="card-title"><i class="fas fa-users"></i> Daftar Admin</h2>
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" placeholder="Cari admin...">
+                </div>
             </div>
             <div class="scroll-table">
                 <table class="data-table">
@@ -113,5 +119,7 @@
     <footer class="page-footer">
         <p>&copy;2025 InnoVixus</p>
     </footer>
+    <script src="script.js"></script>
 </body>
+
 </html>
